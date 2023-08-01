@@ -9,7 +9,7 @@ const NavbarHead = () => {
       <div className="container-fluid nav-container">
         <div className="row mt-4" style={{ height: "5rem" }}>
           <div className="col-4 nav-container-logo">
-            <img src={coffeeLogo} />
+            <img src={coffeeLogo} alt="coffee-website-logo" />
           </div>
           <div className="col-4 nav-container-heading">Coffee Mania</div>
           <div

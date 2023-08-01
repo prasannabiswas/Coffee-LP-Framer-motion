@@ -131,7 +131,7 @@ const Page3 = () => {
                     Copyright &copy; 2023, All Right Reserved{" "}
                     <a
                         href="https://www.linkedin.com/in/prasanna-biswas-8878b11a5/"
-                        target="_blank"
+                        target="_blank" rel="noopener noreferrer"
                     >
                         Prasanna Biswas
                     </a>
