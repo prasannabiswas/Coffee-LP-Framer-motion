@@ -22,7 +22,7 @@ const NavbarHead = () => {
           >
             <ul className="nav-container-links">
               <li>
-                <a href="#page1-hero">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
                 <a href="#page2-offers">Offers</a>
