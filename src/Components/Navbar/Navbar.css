@@ -1,0 +1,96 @@
+.nav-container {
+    height: 6rem;
+    z-index: 1;
+    color: white;
+    font-family: "Borel", cursive;
+}
+
+.nav-container-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-container-logo img {
+    width: 12rem;
+    height: 10rem;
+    cursor: pointer;
+}
+
+.nav-container-heading {
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-container-links {
+    list-style: none;
+    display: inline-flex;
+    gap: 30px;
+    letter-spacing: 3px;
+    font-size: 19.2px;
+    font-weight: 900;
+    font-family: Raleway;
+    color: #f1c27b;
+    z-index: 2;
+}
+
+.nav-container-links a {
+    cursor: pointer;
+    color: #f1c27b;
+}
+
+
+@media only screen
+and (min-width : 1550px) {
+    .nav-container {
+        height: 8rem;
+    }
+    .nav-container-logo img {
+        height: 20rem;
+        width: 25rem;
+    }
+    .nav-container-heading {
+        font-size: 3rem;
+    }
+    .nav-container-links a {
+        font-size: 2rem;
+    }
+}
+
+@media only screen
+and (max-width : 999px) {
+    .nav-container-logo img {
+        width: 20rem;
+        height: 15rem;
+    }
+    .nav-container-heading {
+        font-size: 1.5rem;
+    }
+    .nav-container-links a {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen
+and (max-width : 479px) {
+    .nav-container {
+        margin-top: 15%;
+        height: 2rem;
+    }
+    .nav-container-logo {
+        width: 10px;
+        height: 10px;
+        margin-left: 20%;
+    }
+    .nav-container-heading {
+        font-size: 0.8rem;
+        margin-left: 10%;
+    }
+    .nav-container-links {
+        display: none;
+    }
+}
