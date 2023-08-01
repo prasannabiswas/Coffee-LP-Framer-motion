@@ -86,7 +86,7 @@ const Page2 = () => {
             <div>
               <p style={{ textAlign: "center" }}>
                 Tropical cooldown Kick back with our vibrant new Frozen
-                Pineapple Passionfruit Lemonade Starbucks Refreshers® beverage.
+                Pineapple Passionfruit Lemonade Coffee-Mania Refreshers® beverage.
               </p>
               <div
                 style={{
@@ -112,7 +112,7 @@ const Page2 = () => {
             <div>
               <h2 style={{ textAlign: "center" }}>Now 50% off cold drinks</h2>
               <p style={{ textAlign: "center" }}>
-                WinsDays just got even cooler for Starbucks® Rewards members.
+                WinsDays just got even cooler for Coffee-Mania® Rewards members.
                 Now enjoy 50% off a cold drink on Wednesdays after 12 p.m.*
               </p>
               <div
