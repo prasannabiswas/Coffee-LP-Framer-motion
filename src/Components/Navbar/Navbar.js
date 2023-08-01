@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import coffeeLogo from "../../Images/coffeeLogo.webp";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const NavbarHead = () => {
